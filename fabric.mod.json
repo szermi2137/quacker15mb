@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "duck_c2",
+	"version": "2.6.0",
+	"name": "QuackerMod",
+	"description": "Prosty mod, który pozwoli Ci nakarmić kaczki w grze.",
+	"authors": [
+		"Kaczor"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/quacker",
+		"sources": "https://discord.gg/quacker",
+		"issues": "https://discord.gg/quacker"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/duck_c2/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.ExampleMod"
+		],
+		"client": [
+			"com.example.client.ExampleModClient"
+		]
+	},
+	"mixins": [
+		"duck_c2.mixins.json",
+		{
+			"config": "duck_c2.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"required": true,
+	"package": "com.example.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"CameraMixin",
+		"ChatComponentMixin",
+		"ClientCommonPacketListenerImplMixin",
+		"ClientLevelMixin",
+		"ClientPacketListenerMixin",
+		"ConnectScreenMixin",
+		"EntityMixin",
+		"ExampleClientMixin",
+		"GameRendererMixin",
+		"GuiGraphicsMixin",
+		"GuiMixin",
+		"ItemEntityRendererMixin",
+		"ItemInHandRendererMixin",
+		"KeyboardInputMixin",
+		"KeyMappingAccessor",
+		"LevelRendererMixin",
+		"LivingEntityJumpMixin",
+		"LivingEntityRendererMixin",
+		"LoadingOverlayMixin",
+		"LocalPlayerMixin",
+		"MouseHandlerMixin",
+		"OverlayTextureMixin",
+		"PlayerNameTagMixin",
+		"PlayerRendererMixin",
+		"PlayerScoreEntryMixin",
+		"PlayerTabOverlayMixin",
+		"PlayerTeamMixin",
+		"ReceivingLevelScreenMixin",
+		"ScreenEffectRendererMixin",
+		"TitleScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
